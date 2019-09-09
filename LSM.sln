@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSM.Service", "LSM.Service\LSM.Service.csproj", "{36D534A9-78FB-4AA8-90A6-05F5E5C24799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSM.Engine", "LSM.Engine\LSM.Engine.csproj", "{80495BED-92C6-4EA9-88A0-324E37AA414C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{422BF1E5-63AB-48BE-B934-CC820237811A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D534A9-78FB-4AA8-90A6-05F5E5C24799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D534A9-78FB-4AA8-90A6-05F5E5C24799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D534A9-78FB-4AA8-90A6-05F5E5C24799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D534A9-78FB-4AA8-90A6-05F5E5C24799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80495BED-92C6-4EA9-88A0-324E37AA414C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80495BED-92C6-4EA9-88A0-324E37AA414C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80495BED-92C6-4EA9-88A0-324E37AA414C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80495BED-92C6-4EA9-88A0-324E37AA414C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422BF1E5-63AB-48BE-B934-CC820237811A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422BF1E5-63AB-48BE-B934-CC820237811A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422BF1E5-63AB-48BE-B934-CC820237811A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422BF1E5-63AB-48BE-B934-CC820237811A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C50AC03-C773-470B-A3B7-54AA48D2036D}
+	EndGlobalSection
+EndGlobal
