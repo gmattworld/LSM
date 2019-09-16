@@ -8,6 +8,11 @@ namespace LSM.Engine.Models
 {
     public static class DB
     {
-        public static List<Contact> contacts { get; set; }
+
+        public static DatabaseConfig database { get; set; }
+        public static AppConfig app { get; set; }
+        public static PerformanceConfig performance { get; set; }
+
+        public static ServiceState serviceState { get; set; }
     }
 }
